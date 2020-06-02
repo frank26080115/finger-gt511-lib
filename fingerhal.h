@@ -24,7 +24,7 @@ usually these will become simple wrappers to your existing function calls
 extern void fingerHal_sendPacket(uint8_t* buff, uint8_t len);
 extern unsigned long fingerHal_millis(void);
 extern uint8_t fingerHal_serAvail(void);
-extern uint16_t fingerHal_serRead(void);
+extern int16_t fingerHal_serRead(void);
 
 #ifdef __cplusplus
 }

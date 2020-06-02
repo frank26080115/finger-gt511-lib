@@ -27,7 +27,7 @@ uint8_t fingerHal_serAvail(void)
 	return FINGERHAL_SERIAL.available();
 }
 
-uint16_t fingerHal_serRead(void)
+int16_t fingerHal_serRead(void)
 {
 	return FINGERHAL_SERIAL.read();
 }
